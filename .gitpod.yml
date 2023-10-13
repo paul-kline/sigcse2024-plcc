@@ -9,6 +9,6 @@ tasks:
   - name: Install PLCC
     command: ./.gitpod/install-plcc.sh
 
-vscode:
-    extensions:
-        - jebbs.plantuml
+  - name: Install JDK
+    command: sdk install 21-open
+
