@@ -6,7 +6,7 @@
 
 rm -rf "$HOME/plcc"
 git clone https://github.com/ourPLCC/plcc.git "$HOME/plcc"
-git -C "$HOME/plcc" checkout v3.3.1
+git -C "$HOME/plcc" checkout v4.0.0
 
 # Define LIBPLCC and add it to PATH in ~/.bashrc
 echo 'export LIBPLCC="$HOME/plcc/src"
