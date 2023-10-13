@@ -10,5 +10,4 @@ tasks:
     command: ./.gitpod/install-plcc.sh
 
   - name: Install JDK
-    command: sdk install 21-open
-
+    init: sdk install java 21-open < /dev/null
