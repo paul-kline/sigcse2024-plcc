@@ -13,4 +13,4 @@ echo 'export LIBPLCC="$HOME/plcc/src"
 export PATH="$LIBPLCC:$PATH"
 ' >> "$HOME/.bashrc"
 
-echo "\n    Open a new terminal. (Press the + in the right margin.)\n"
+exec $SHELL
