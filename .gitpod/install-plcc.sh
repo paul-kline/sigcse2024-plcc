@@ -6,11 +6,11 @@
 
 rm -rf "$HOME/plcc"
 git clone https://github.com/ourPLCC/plcc.git "$HOME/plcc"
-git -C "$HOME/plcc" checkout v4.0.0
+git -C "$HOME/plcc" checkout v4.0.1
 
 # Define LIBPLCC and add it to PATH in ~/.bashrc
 echo 'export LIBPLCC="$HOME/plcc/src"
 export PATH="$LIBPLCC:$PATH"
 ' >> "$HOME/.bashrc"
 
-echo "\n    Open a new terminal.\n"
+echo "\n    Open a new terminal. (Press the + in the right margin.)\n"
