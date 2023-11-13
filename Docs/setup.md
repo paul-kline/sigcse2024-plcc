@@ -1,20 +1,41 @@
-INSTRUCTIONS FOR SETTING UP GITPOD
+# Setup for the workshop
 
+Fear not! No prior experience with Git, GitHub, GitLab, BitBucket, or
+GitPod is necessary for participating in this workshop. However, you
+will need a GitPod account (which will require an account on GitHub,
+GitLab, or BitBucket). The instructions on this page will walk you
+through creating the necessary accounts and testing that you have access
+to the workshop materials.
+
+Plesae do your best to complete these instructions before attending
+the workshop.
+
+## GitHub, GitLab, or Bitbucket
+
+These services store Git repositories and allow you to colloaborate with
+others to build software. You'll need an account on at least one of these
+to create a GitPod account in the next section. All provide free-tier accounts.
+If you don't have one, please create one now; if you are having trouble
+choosing, GitHub's account creation is pretty painless.
+
+* <https://github.com/>
+* <https://gitlab.com/>
+* <https://bitbucket.com/>
 
 ## GitPod
 
-GitPod provides effimeral workspaces for software development.
-It is similar to GitHub's CodeSpaces, but GitPod works with GitHub,
-GitLab, and Bitbucket and is not owned by GitHub/Microsoft.
+GitPod provides effimeral workspaces for software development (similar
+to GitHub's CodeSpaces). GitPod provides its users with 50 free computing
+hours per month.
 
-GitPod provides its users with 50 free computing hours per month.
-
-We will use it because it will provide all participants with a consistent
-development environment, pre-installed with PLCC and the workshop materials.
+We will use it to provide you with a development environment, pre-installed
+with PLCC and the workshop materials. Please complete the instructions
+below to setup GitPod for use in this workshop.
 
 ## Create a GitPod Account 
 
-1. Navigate to <https://gitpod.io/>
+1. Navigate to <https://gitpod.io/>. GitPod should greet you with something
+like this.
 
 ![](images/01-gitpod-home.jpg)
 
@@ -23,38 +44,75 @@ an account.
 
 ![](images/02-choose-github.jpg)
 
-3.
+3. Select the service with whome you have an account. GitPod will send you to that service to request authorization to read and write repositories in that service with your authority.
 
 ![](images/03-authorize.jpg)
 
-4.
+4. Authorize GitPod to act on your behalf in the service and you will
+be redirected back to GitPod for configuration.
 
 ![](images/04-choose-editor.jpg)
 
-5.
+5. Use the default configuration for editor. In particular, please
+select "VS Code, Browser" for your editor. You can change this after
+the workshop if you prefer.
+
+    Next you'll be asked some survey questions. Answer them how you like.
 
 ![](images/05-why.jpg)
 
-6.
+6. When you continue you will be taken to your GitPod Dashboard.
+
 
 ![](images/06-choose-or-make-workspace.jpg)
 
-7.
+
+7. Now let's confirm that you can start your personal workspace that
+contains the workshop materials and PLCC pre-installed.
+
+    Click "New Workspace"
 
 ![](images/07-identify-repo.jpg)
 
-8.
+8. In "Select a repository" paste: https://github.com/ourPLCC/sigcse2024
+    and select "Continue".
+    
+    After a few seconds you will see a VS Code editor. In the lower right
+    you will be asked if you want to open the workspace in VS Code
+    Desktop?
+    
 
 ![](images/08-choose-VS.jpg)
 
-9.
+9. Please close this by pressing the X in the dialog's upper-right corner. Please DO NOT press open.
 
 ![](images/09-initial-workspace.jpg)
 
-10.
+10. Now try the following commands in the terminal in the bottom pane:
 
-![](images/10-new-bash.jpg)
+    ```bash
+    java --version
+    python --version
+    plcc --version
+    ```
 
-11.
+    You should see something similar to the below, which means everthing
+    is working.
 
 ![](images/11-verify-setup-in-bash.jpg)
+
+11. You can now stop your workspace by pressing CTRL+SHIFT+P (CMD+SHIFT+P on Mac), search for and select "GitPod: Stop Workspace".
+
+![](images/12-stop-workspace.png)
+
+12. Once you see something like the following you can close the tab.
+
+![](images/13-stop-workspace.png)
+
+## Congratulations!
+
+That's it! You are ready for the workshop!
+
+## Help!
+
+If you have any problems with the above, please contact Stoney Jackson <dr.stoney@gmail.com>.
