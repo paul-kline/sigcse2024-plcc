@@ -1,14 +1,20 @@
 # Setup for the workshop
 
+Please do your best to complete these instructions before attending
+the workshop.
+
+## Expected time
+
+15-20 minutes
+
+## Overview
+
 Fear not! No prior experience with Git, GitHub, GitLab, BitBucket, or
 GitPod is necessary for participating in this workshop. However, you
 will need a GitPod account (which will require an account on GitHub,
 GitLab, or BitBucket). The instructions on this page will walk you
 through creating the necessary accounts and testing that you have access
 to the workshop materials.
-
-Plesae do your best to complete these instructions before attending
-the workshop.
 
 ## GitHub, GitLab, or Bitbucket
 
@@ -21,6 +27,17 @@ choosing, GitHub's account creation is pretty painless.
 * <https://github.com/>
 * <https://gitlab.com/>
 * <https://bitbucket.com/>
+
+Now that you have an account on one of these services continue on.
+
+## LinkedIn
+
+GitPod, which we'll set up next, giives you 10 free hours per month.
+If you connect a LinkedIn account, they give you an additional 40 free
+hours per month. If you don't have a LinkedIn account, and would like to
+have this additional free time, you should create this account now.
+
+Let's move on to creating a GitPod account.
 
 ## GitPod
 
@@ -51,9 +68,15 @@ an account.
 4. Authorize GitPod to act on your behalf in the service and you will
 be redirected back to GitPod for configuration.
 
+![](images/linkedin.jpg)
+
+5. If you have a LinkedIn account, nows the time to
+connect it to GitPod to get 50 free hours per month. Otherwise, you can continue with 10 free hours per
+month.
+
 ![](images/04-choose-editor.jpg)
 
-5. Use the default configuration for editor. In particular, please
+6. Use the default configuration for editor. In particular, please
 select "VS Code, Browser" for your editor. You can change this after
 the workshop if you prefer.
 
@@ -61,20 +84,18 @@ the workshop if you prefer.
 
 ![](images/05-why.jpg)
 
-6. When you continue you will be taken to your GitPod Dashboard.
-
+7. When you continue you will be taken to your GitPod Dashboard.
 
 ![](images/06-choose-or-make-workspace.jpg)
 
-
-7. Now let's confirm that you can start your personal workspace that
+8. Now let's confirm that you can start your personal workspace that
 contains the workshop materials and PLCC pre-installed.
 
     Click "New Workspace"
 
 ![](images/07-identify-repo.jpg)
 
-8. In "Select a repository" paste: https://github.com/ourPLCC/sigcse2024
+9. In "Select a repository" paste: https://github.com/ourPLCC/sigcse2024
     and select "Continue".
     
     After a few seconds you will see a VS Code editor. In the lower right
@@ -84,11 +105,11 @@ contains the workshop materials and PLCC pre-installed.
 
 ![](images/08-choose-VS.jpg)
 
-9. Please close this by pressing the X in the dialog's upper-right corner. Please DO NOT press open.
+10. Please close this by pressing the X in the dialog's upper-right corner. Please DO NOT press open.
 
 ![](images/09-initial-workspace.jpg)
 
-10. Now try the following commands in the terminal in the bottom pane:
+11. Now try the following commands in the terminal in the bottom pane:
 
     ```bash
     java --version
@@ -101,13 +122,13 @@ contains the workshop materials and PLCC pre-installed.
 
 ![](images/11-verify-setup-in-bash.jpg)
 
-11. You can now stop your workspace by pressing CTRL+SHIFT+P (CMD+SHIFT+P on Mac), search for and select "GitPod: Stop Workspace".
+12. You can now stop your workspace by pressing CTRL+SHIFT+P (CMD+SHIFT+P on Mac), search for and select "GitPod: Stop Workspace".
 
 ![](images/12-stop-workspace.png)
 
-12. Once you see something like the following you can close the tab.
+13. Once you see something like the following you can close the tab.
 
-![](images/13-stop-workspace.png)
+![](images/13-stopped.png)
 
 ## Congratulations!
 
