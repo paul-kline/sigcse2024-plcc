@@ -135,6 +135,10 @@ contains the workshop materials and PLCC pre-installed.
 
 That's it! You are ready for the workshop!
 
+While you wait for the workshop, feel free to take a look at some of the
+many languages that have been implemented using PLCC:
+<https://github.com/ourPLCC/languages>.
+
 ## Help!
 
 If you have any problems with the above, please contact Stoney Jackson <dr.stoney@gmail.com>.
