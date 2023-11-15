@@ -47,7 +47,8 @@ hours per month.
 
 We will use it to provide you with a development environment, pre-installed
 with PLCC and the workshop materials. Please complete the instructions
-below to setup GitPod for use in this workshop.
+below to setup GitPod for use in this workshop. GitPod will save an un-pushed
+environment for 14 days, according to what they told me when I left things hanging.
 
 ## Create a GitPod Account 
 
@@ -117,7 +118,7 @@ contains the workshop materials and PLCC pre-installed.
     plcc --version
     ```
 
-    You should see something similar to the below, which means everything
+    You should see something similar to the following, which means everything
     is working.
 
 ![](images/11-verify-setup-in-bash.jpg)
