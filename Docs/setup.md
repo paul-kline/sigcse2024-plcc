@@ -18,7 +18,7 @@ to the workshop materials.
 
 ## GitHub, GitLab, or Bitbucket
 
-These services store Git repositories and allow you to colloaborate with
+These services store Git repositories and allow you to collaborate with
 others to build software. You'll need an account on at least one of these
 to create a GitPod account in the next section. All provide free-tier accounts.
 If you don't have one, please create one now; if you are having trouble
@@ -32,7 +32,7 @@ Now that you have an account on one of these services continue on.
 
 ## LinkedIn
 
-GitPod, which we'll set up next, giives you 10 free hours per month.
+GitPod, which we'll set up next, gives you 10 free hours per month.
 If you connect a LinkedIn account, they give you an additional 40 free
 hours per month. If you don't have a LinkedIn account, and would like to
 have this additional free time, you should create this account now.
@@ -41,7 +41,7 @@ Let's move on to creating a GitPod account.
 
 ## GitPod
 
-GitPod provides effimeral workspaces for software development (similar
+GitPod provides ephemeral workspaces for software development (similar
 to GitHub's CodeSpaces). GitPod provides its users with 50 free computing
 hours per month.
 
@@ -61,7 +61,7 @@ an account.
 
 ![](images/02-choose-github.jpg)
 
-3. Select the service with whome you have an account. GitPod will send you to that service to request authorization to read and write repositories in that service with your authority.
+3. Select the service with whom you have an account. GitPod will send you to that service to request authorization to read and write repositories in that service with your authority.
 
 ![](images/03-authorize.jpg)
 
@@ -117,7 +117,7 @@ contains the workshop materials and PLCC pre-installed.
     plcc --version
     ```
 
-    You should see something similar to the below, which means everthing
+    You should see something similar to the below, which means everything
     is working.
 
 ![](images/11-verify-setup-in-bash.jpg)
