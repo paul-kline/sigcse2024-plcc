@@ -5,7 +5,7 @@ the workshop.
 
 ## Expected time
 
-15-20 minutes
+15-30 minutes
 
 ## Overview
 
