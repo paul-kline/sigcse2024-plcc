@@ -3,8 +3,12 @@
 #
 # SPDX-License-Identifier: GPL-3.0-or-later
 
-image: gitpod/workspace-full:2023-08-09-14-26-44
+image: gitpod/workspace-full:latest
 
 tasks:
   - name: Install PLCC
-    command: source ./.gitpod/install-plcc.sh
+    command: |
+        /bin/bash -c "$(curl -fsSL https://github.com/ourPLCC/plcc/raw/main/installer/install.bash)" >> ~/.bashrc
+        # Uncomment to checkout install specific version
+        # git -C "$HOME/.local/plcc/" checkout v4.0.1
+        exec bash
