@@ -6,16 +6,30 @@
 ## Schedule
 
 30m Welcome
-    PLCC Overview
-    Team Up and Setup
+    10m PLCC Overview
+    10m Team Up and Setup
 
 30m Lexical Analysis
+    5m Pres
+    20m Exercise
+    5m Solution 
 
 30m Syntactic Analysis
+    5m Pres
+    20m Exercise
+    5m Solution 
 
-15m Break
+10m Break
 
-40m Semantic Analysis
+30m Semantic Analysis
+    5m Pres
+    20m Exercise
+    5m Solution 
 
 30m Curriculum
-    Wrap up
+    Examples of other languages
+        V6
+        ABC
+        OBJ
+
+20m How to Adopt
