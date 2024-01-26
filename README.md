@@ -5,17 +5,17 @@
 
 ## Schedule
 
-* 30m Welcome
+* 20m Welcome
     * 10m PLCC Overview
     * 10m Team Up and Setup
 
-* 30m Lexical Analysis
-    * 5m Pres
+* 35m Lexical Analysis
+    * 10m Pres
     * 20m Exercise
     * 5m Solution 
 
-* 30m Syntactic Analysis
-    * 5m Pres
+* 35m Syntactic Analysis
+    * 10m Pres
     * 20m Exercise
     * 5m Solution 
 
