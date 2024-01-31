@@ -12,4 +12,3 @@ tasks:
         # Clear Java options set by GitPod or Ubuntu.
         echo "unset JAVA_TOOL_OPTIONS" >> ~/.bashrc
         exec bash
-        clear
