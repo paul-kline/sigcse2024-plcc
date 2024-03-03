@@ -1,4 +1,4 @@
-# Setup for the workshop
+# Pre Workshop Setup
 
 Please do your best to complete these instructions before attending
 the workshop.
@@ -9,48 +9,48 @@ the workshop.
 
 ## Overview
 
-Fear not! No prior experience with Git, GitHub, GitLab, BitBucket, or
-GitPod is necessary for participating in this workshop. However, you
-will need a GitPod account (which will require an account on GitHub,
-GitLab, or BitBucket). The instructions on this page will walk you
-through creating the necessary accounts and testing that you have access
+During the workshop, you will work in small teams to complete some activities.
+At least one of your team members needs to have completed the instructions
+in this document. To ensure we have a critical mass of participants that
+have completed these instructions, please try to complete them now. If
+you cannot, no worries, I'm sure others will and you can share on with them.
+
+You will need free accounts on GitHub and GitPot. No prior experience with
+these services and Git are necessary to participate in this workshop.
+The instructions on this page will walk you through creating the
+necessary accounts and testing that you have access
 to the workshop materials.
 
-## GitHub, GitLab, or Bitbucket
+## GitHub
 
-These services store Git repositories and allow you to collaborate with
-others to build software. You'll need an account on at least one of these
-to create a GitPod account in the next section. All provide free-tier accounts.
-If you don't have one, please create one now; if you are having trouble
-choosing, GitHub's account creation is pretty painless.
+The materials for this workshop are stored in a Git repository on GitHub.
+You will need a free GitHub account so that you fork (make a copy) of this
+repository so you can save your progress through its activities.
+
+If you don't have a GitHub account, please create one now.
 
 * <https://github.com/>
-* <https://gitlab.com/>
-* <https://bitbucket.com/>
 
 Now that you have an account on one of these services continue on.
 
-## LinkedIn
+## GitPod and LinkedIn
 
-GitPod, which we'll set up next, gives you 10 free hours per month.
-If you connect a LinkedIn account, they give you an additional 40 free
-hours per month. If you don't have a LinkedIn account, and would like to
-have this additional free time, you should create this account now.
+GitPod provides ephemeral workspaces (virtual machines on a remote server)
+for software development. We'll use it to provide you with a development environment,
+pre-installed with PLCC and the workshop materials.
 
-Let's move on to creating a GitPod account.
+GitPod provides its users with 10 free computing
+hours per month of workspace runtime, 50 free hours per month if you
+associate your LinkedIn account with it.
+So, if you want the 50 free hours per month, please create a LinkedIn
+account first.
 
-## GitPod
+* [LinkedIn](https://linkedin.com/)
 
-GitPod provides ephemeral workspaces for software development (similar
-to GitHub's CodeSpaces). GitPod provides its users with 50 free computing
-hours per month.
+Now that you have a LinkedIn account and a GitHub account, let's get back
+to GitPod. Below are detailed instructions for creating a GitPod account.
 
-We will use it to provide you with a development environment, pre-installed
-with PLCC and the workshop materials. Please complete the instructions
-below to setup GitPod for use in this workshop. GitPod will save an un-pushed
-environment for 14 days, according to what they told me when I left things hanging.
-
-## Create a GitPod Account 
+## Create a GitPod Account
 
 1. Navigate to <https://gitpod.io/>. GitPod should greet you with something
 like this.
@@ -98,11 +98,11 @@ contains the workshop materials and PLCC pre-installed.
 
 9. In "Select a repository" paste: https://github.com/ourPLCC/sigcse2024
     and select "Continue".
-    
+
     After a few seconds you will see a VS Code editor. In the lower right
     you will be asked if you want to open the workspace in VS Code
     Desktop?
-    
+
 
 ![](images/08-choose-VS.jpg)
 

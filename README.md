@@ -1,7 +1,12 @@
 # PLCC Workshop - SIGCSE 2024
 
-* [Setup](Docs/setup.md) - Before attending the workshop please complete
-    the instructions in this document.
+## Pre-Workshop Setup
+
+Before attending the workshop,
+please try to complete the instructions linked below. If you are
+not able to, no worries, we'll have you team up with someone who has.
+
+* [Pre-Workshop Setup Instructions](Docs/Pre-Workshop-Setup/README.md)
 
 ## Schedule
 
@@ -12,19 +17,19 @@
 * 35m Lexical Analysis
     * 10m Pres
     * 20m Exercise
-    * 5m Solution 
+    * 5m Solution
 
 * 35m Syntactic Analysis
     * 10m Pres
     * 20m Exercise
-    * 5m Solution 
+    * 5m Solution
 
 * 10m Break
 
 * 30m Semantic Analysis
     * 5m Pres
     * 20m Exercise
-    * 5m Solution 
+    * 5m Solution
 
 * 30m Curriculum (V6, ABC, OBJ)
 
