@@ -8,7 +8,11 @@ skip WHITESPACE '\s+'
 # a line boundary.
 skip COMMENT '#.*$'
 
+token IF 'if'
+token ELSE 'else'
 token IDENT '[A-Za-z%$@][_A-Za-z%$@]*'
+
+token INTEGER '[0-9]+'
 
 %
 

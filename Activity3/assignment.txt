@@ -43,6 +43,8 @@ Question: Without making any other changes to your language specification
 file, could you use the SUB token "-" as the prefix operator for unary
 negation instead of "_"?  Explain your answer.
 
+No, because - 5 2 
+
 Question: Without making any other changes to your language specification
 file, can you change the lexical specification for the INTEGER token so
 signed decimal integers will be recognized? If so, -9 will be considered
@@ -52,3 +54,4 @@ the expression "- 9 4" evaluates to 5.
 Question: Without making any other changes to your language specification
 file, can you use the digraph "--" as the prefix operator for unary
 negation? If so, what would be the value of the expression "--- 2 7"?
+- (2-7) = -(-5) = 5

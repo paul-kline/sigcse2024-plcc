@@ -8,6 +8,7 @@ token SUBOP '\-'
 token MULOP '\*'
 token DIVOP '/'
 # Add new token definition here for unary negation.
+token NEG   '_'
 
 token INTEGER '[0-9]+'
 
@@ -18,6 +19,7 @@ token INTEGER '[0-9]+'
 <expr>Sub    ::= SUBOP <expr>opnd1 <expr>opnd2
 <expr>Mul    ::= MULOP <expr>opnd1 <expr>opnd2
 <expr>Div    ::= DIVOP <expr>opnd1 <expr>opnd2
+<expr>Neg    ::= NEG <expr>opnd1
 # Add a grammar rule for prefix unary negation.
 
 %
@@ -78,3 +80,28 @@ Add
 # definition in their Expr superclass given above. To fix this, in
 # the space below define the "evaluate" method for each of the
 # remaining classes Sub, Mul, and Div that extend the Expr class.
+Sub
+%%{
+    public int evaluate() {
+        return opnd1.evaluate() - opnd2.evaluate();
+    }
+%%}
+Mul
+%%{
+    public int evaluate() {
+        return opnd1.evaluate() * opnd2.evaluate();
+    }
+%%}
+
+Div
+%%{
+    public int evaluate() {
+        return opnd1.evaluate() / opnd2.evaluate();
+    }
+%%}
+Neg
+%%{
+    public int evaluate() {
+        return - opnd1.evaluate();
+    }
+%%}
